@@ -1,0 +1,120 @@
+ /* Body styling */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./image/surgon.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  /* Content styling */
+  .content {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px; /* Adds space between the text and the button */
+  }
+
+  .content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+
+  .content p {
+    font-size: 1.5rem;
+  }
+
+  /* Arrow button styling */
+  .arrow-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Adds space above the button */
+  }
+
+  .arrow-button:hover {
+    background-color: #0056b3;
+  }
+
+  .arrow-button svg {
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+  }
+
+  .arrow-button:hover svg {
+    transform: translateX(5px);
+  }
+
+  /* Login form styling */
+  .login-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 20px; /* Adds space above the form */
+  }
+
+  .login-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .login-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+
+  .error-message {
+    margin-top: 10px;
+    color: red;
+    font-size: 14px;
+  }
